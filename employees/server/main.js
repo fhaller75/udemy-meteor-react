@@ -23,5 +23,6 @@ Meteor.startup(() => {
     });
   }
 
-  Meteor.publish('employees', () => Employees.find({}, { limit: 20 }));
+  Meteor.publish('employees', (per_page) => 
+    Employees.find({}, { limit: per_page }));
 });
