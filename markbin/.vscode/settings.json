@@ -1,0 +1,7 @@
+{
+    "vsicons.presets.angular": false,
+    "emmet.syntaxProfiles": {
+        // force JSX profile for js files
+        "javascript": "jsx"
+    }
+}
