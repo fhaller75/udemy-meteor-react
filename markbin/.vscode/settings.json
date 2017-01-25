@@ -4,4 +4,6 @@
         // force JSX profile for js files
         "javascript": "jsx"
     }
+,
+"eslint.enable": false
 }
